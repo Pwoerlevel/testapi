@@ -10,7 +10,7 @@ def test_api():
     return jsonify({"message": "Request received successfully ✅"})
 
 @app.route('/abobest', methods=['POST'])
-def test_api():
+def abobest():
     return jsonify({"message": "2021"})
 
 
