@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from g4f.client import Client
 
 app = Flask(__name__)
 CORS(app)  # السماح بأي origin
