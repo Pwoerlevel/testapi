@@ -11,7 +11,7 @@ def test_api():
 
 @app.route('/abobest', methods=['POST'])
 def abobest():
-    return jsonify({"message": "2021"})
+    return jsonify({"message": "2025"})
 
 
 if __name__ == '__main__':
