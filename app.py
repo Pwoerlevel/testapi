@@ -9,6 +9,9 @@ CORS(app)  # السماح بأي origin
 def test_api():
     return jsonify({"message": "Request received successfully ✅"})
 
+@app.route('/abobest', methods=['POST'])
+def test_api():
+    return jsonify({"message": "2021"})
 
 
 if __name__ == '__main__':
